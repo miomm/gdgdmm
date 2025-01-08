@@ -9,9 +9,13 @@
             font-family: Arial, sans-serif;
             font-size: 16px;
             line-height: 1.6;
-            padding: 0 30%; /* 左右の余白 */
+            padding: 10px 30%; /* 左右の余白 */
         }
-
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            font-weight: bold; /* 太字にしない */
+        }
         .links a {
             font-size: 1em;
             color: blue;
@@ -22,16 +26,9 @@
         .links a:hover {
             text-decoration: none; /* ホバー時のアンダーバーを無効にする */
             background-color: yellow; /* ホバー時の背景色を設定 */
-        }
-
-        .links a:visited {
-            color: blue; /* クリック済みのリンクの色を変更しない */
+            border: 2px solid black; /* ホバー時に黒い線で四角く囲む */
         }
         
-        footer {
-            text-align: center; /* フッターを中央に配置 */
-            margin-top: 200px; /* 一番下のコンテンツから200pxの余白を追加 */
-        }
     </style>
 </head>
 <body>
@@ -57,10 +54,5 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="links">
-            <a href="index.html">home</a>
-        </div>
-    </footer>
 </body>
 </html>
