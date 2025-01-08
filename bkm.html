@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmark</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            padding: 0 30%; /* 左右の余白 */
+        }
+
+        .links a {
+            font-size: 1em;
+            color: blue;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .links a:hover {
+            text-decoration: none; /* ホバー時のアンダーバーを無効にする */
+            background-color: yellow; /* ホバー時の背景色を設定 */
+        }
+
+        .links a:visited {
+            color: blue; /* クリック済みのリンクの色を変更しない */
+        }
+        
+        footer {
+            text-align: center; /* フッターを中央に配置 */
+            margin-top: 200px; /* 一番下のコンテンツから200pxの余白を追加 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>bookmark</h1>
+    </header>
+    <main>
+        <section id="mine">
+            <h3>mine</h3>
+            <div class="links">
+                <a href="https://miomatsui.notion.site/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+            </div>
+        </section>
+        <hr> <!-- 区切り線 -->
+        <section id="fav-page">
+            <h3>fav page</h3>
+            <div class="links">
+                <a href="https://poolsuite.net/" target="_blank" rel="noopener noreferrer">Poolsuite FM</a>
+                <a href="https://hakko.glitch.me/" target="_blank" rel="noopener noreferrer">発光！＜Hakko!＞</a>
+                <a href="https://scrapbox.io/s4nt4-cc/" target="_blank" rel="noopener noreferrer">s4nt4-cc</a>
+                <a href="https://www.homuta.xyz/" target="_blank" rel="noopener noreferrer">誉田千尋</a>
+                <a href="https://kenjimonden.com/" target="_blank" rel="noopener noreferrer">門田健嗣 kenji monden</a>
+                <a href="https://braveeeeen.vercel.app/" target="_blank" rel="noopener noreferrer">braveeeeen</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="index.html">home</a>
+        </div>
+    </footer>
+</body>
+</html>
