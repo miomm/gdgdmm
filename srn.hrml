@@ -1,0 +1,14 @@
+<script type="text/javascript">
+var year = "2025";var month = "01";var day = "15";var hour = "12";var minute = "00";var centi = "1";
+var convert = "0";var roop = "";
+var cnt1 = "日";var cnt2 = "：";var cnt3 = "：";var cnt4 = ".";
+var baseoffset = "none";var cuttime = "";
+var br1 = "1";var br2 = "1";var br3 = "1";var br4 = "1";
+var com1 = "修論提出まで";var com2 = "と";var com3 = "です";var com4 = "お疲れ様！！！！";var end = "2";
+var width = "1520";var height = "1200";
+var font = "arial";var font2 = "7seg4";var size = "72";var t_size = "120";var l_height = "108";var t_height = "120";var bold = "";var italic = "";var line = "";
+var space = "50px 0px 0px 0px";
+var align = "2";var img = "";
+var color1 = "FF00FF";var color2 = "00FF00";var color3 = "000000";
+</script>
+<script type="text/javascript" src="//countdown.reportitle.com/js/neo1.js"></script><a href="//countdown.reportitle.com/">カウントダウンタイマー</a><script type="text/javascript" src="//countdown.reportitle.com/js/neo2.js"></script>

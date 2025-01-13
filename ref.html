@@ -16,7 +16,7 @@
         h1 {
             font-size: 2em;
             margin-bottom: 0.5em;
-            font-weight: bold; /* 太字にしない */
+            font-weight: bold; /* 太字にする */
         }
 
         .links a {
@@ -31,6 +31,14 @@
             border: 2px solid black; /* ホバー時に黒い線で四角く囲む */
         }
 
+        .work {
+            margin-bottom: 20px; /* 各作品紹介の下に余白を追加 */
+        }
+
+        .work-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
@@ -38,11 +46,21 @@
         <h1>reference</h1>
     </header>
     <section id="ref-works">
-        日用品を使った音のパフォーマンス/クリスチャンマークレー
-        <div class="links">
-            <a href="https://youtu.be/tj_Ns9NlHww?si=tI7z09CtroDgn8Hq" target="_blank" rel="noopener noreferrer">
-                Christian Marclay and Okkyung Lee Perform Calder's Small Sphere and Heavy Spher</a>
+        <div class="work">
+            <div class="work-title">日用品を使った音のパフォーマンス/クリスチャンマークレー</div>
+            <div class="links">
+                <a href="https://youtu.be/tj_Ns9NlHww?si=tI7z09CtroDgn8Hq" target="_blank" rel="noopener noreferrer">
+                    Christian Marclay and Okkyung Lee Perform Calder's Small Sphere and Heavy Spher</a>
+            </div>
         </div>
+        <div class="work">
+            <div class="work-title">藤本由紀夫 / サウンド・オブジェなど</div>
+            <div class="links">
+                <a href="https://shugoarts.com/artist/46/" target="_blank" rel="noopener noreferrer">
+                    藤本由紀夫 Yukio FUJIMOTO</a>
+            </div>
+        </div>
+        <!-- ここに他の作品紹介を追加 -->
     </section>
 </body>
 </html>
